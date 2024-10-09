@@ -26,6 +26,27 @@
                     <br>
                     <a class="button" href="#showModal">Узнать подробности</a>
                 </div>
+                <div class="dop_img">
+                    <div class="img_wrap img_1">
+                        <img src="{{ asset('img/bn_present/4.jpg') }}" alt="">
+                    </div>
+                    <div class="img_wrap img_2">
+                        <img src="{{ asset('img/bn_present/2.jpg') }}" alt="">
+                    </div>
+                    <div class="img_wrap img_3">
+                        <img src="{{ asset('img/bn_present/3.jpg') }}" alt="">
+                    </div>
+                    <div class="img_wrap img_4">
+                        <img src="{{ asset('img/bn_present/1.jpg') }}" alt="">
+                    </div>
+
+                    <div class="img_wrap img_5">
+                        <img src="{{ asset('img/bn_present/5.webp') }}" alt="">
+                    </div>
+                    <div class="img_wrap img_6">
+                        <img src="{{ asset('img/bn_present/6.jpg') }}" alt="">
+                    </div>
+                </div>
             </div>
     </section>
 
@@ -98,7 +119,7 @@
     <section id="program" class="program_section central_section">
         <div class="container">
             <h2>Ознакомьтесь с<br>программой тура «Кремлёвскую Ёлку»</h2>
-            <a target="_blanck" class="download_btn" href="{{ asset('program/spb_2025.pdf')}}"><span>Скачать программу для <br>ознакомления в формате PDF</span></a>
+            {{-- <a target="_blanck" class="download_btn" href="{{ asset('program/spb_2025.pdf')}}"><span>Скачать программу для <br>ознакомления в формате PDF</span></a> --}}
             <x-program></x-program>
         </div>
     </section>
@@ -106,6 +127,19 @@
     <section class="in_tur">
         <div class="container text_styles">
             <div class="wrapper">
+                <h2>Стоимость билетов</h2>
+                <strong>Билеты на балкон:</strong>
+                <ul>
+                    <li>9500 ₽ дети </li>
+                    <li>11000 ₽ взрослые</li>
+                </ul>
+
+                <strong>Билеты амфитеатр:</strong>
+                <ul>
+                    <li>10500 ₽ дети</li>
+                    <li>12000 ₽ взрослые</li>
+                </ul>
+
                 <h2>В цену тура входит</h2>
                 <ul>
                     <li>Билеты выбранной категории на <strong>Кремлёвскую Ёлку 🎄</strong></li>

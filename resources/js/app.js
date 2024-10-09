@@ -32,11 +32,28 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 gsap.registerPlugin(TextPlugin,ScrollTrigger,ScrollToPlugin);
 
+let img_object_from =  {
+    opacity:0,
+}
+let img_object_to = {
+    opacity:1,
+    duration:.3
+}
+
 let tl = gsap.timeline({delay:1})
     .from('.about', { opacity:0, scale:0})
     // .from('.location_section', { opacity:0, scale:0})
 
-tl.fromTo('.bnr_text',
+tl.fromTo('header .container',
+    {
+        opacity:0,
+    },
+    {
+        opacity:1,
+        duration:.5
+    }
+)
+.fromTo('.bnr_text',
     {
         opacity:0,
         x:-300
@@ -47,16 +64,13 @@ tl.fromTo('.bnr_text',
         duration:.5
     }
 )
-.fromTo(
-    '.bnr_img',
-    {
-        opacity:0,
-    },
-    {
-        opacity:1,
-        duration:.5
-    },
-)
+.fromTo('.img_1', img_object_from, img_object_to )
+.fromTo('.img_2', img_object_from, img_object_to )
+.fromTo('.img_3', img_object_from, img_object_to )
+.fromTo('.img_4', img_object_from, img_object_to )
+.fromTo('.img_5', img_object_from, img_object_to )
+.fromTo('.img_6', img_object_from, img_object_to )
+
 .to('.about',
     {
         opacity:1,
