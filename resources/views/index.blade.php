@@ -118,7 +118,7 @@
 
     <section id="program" class="program_section central_section">
         <div class="container">
-            <h2>Ознакомьтесь с<br>программой тура «Кремлёвскую Ёлку»</h2>
+            <h2>Ознакомьтесь с<br>программой тура «Кремлёвская Ёлка»</h2>
             {{-- <a target="_blanck" class="download_btn" href="{{ asset('program/spb_2025.pdf')}}"><span>Скачать программу для <br>ознакомления в формате PDF</span></a> --}}
             <x-program></x-program>
         </div>
