@@ -4,7 +4,6 @@
         <div class="img">
             <img src="{{ asset('img/location/'.$value) }}" alt="{{ $key }}">
         </div>
-        <h3>{{ $key }}</h3>
     </div>
     @endforeach
 

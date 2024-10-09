@@ -109,6 +109,13 @@ h1 {
 }
 
 
+.in_tur {
+    .wrapper  {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width:1280px) {
     .container{
         width:96%;
@@ -125,7 +132,7 @@ h1 {
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width:768px) {
     h1{
         font-size: 28px;
         span{
@@ -135,11 +142,22 @@ h1 {
     h2 {
         font-size: 20px;
     }
+
+    .in_tur {
+        .container {
+            width: 96%;
+        }
+
+        .wrapper  {
+            width: 100%;
+        }
+    }
 }
 
 @import "header";
 @import "menues";
 @import "banner";
+@import "banner_new";
 @import "about";
 @import "persons";
 @import "locations";
