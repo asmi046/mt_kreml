@@ -123,6 +123,13 @@
             <x-program></x-program>
         </div>
     </section>
+{{--
+    <section id="location" class="location_section">
+        <div class="container">
+            <h2>ТОП локации<br>Москвы</h2>
+            <x-locations></x-locations>
+        </div>
+    </section> --}}
 
     <section class="in_tur">
         <div class="container text_styles">
