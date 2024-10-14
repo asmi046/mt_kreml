@@ -112,7 +112,7 @@
     <section id="location" class="location_section">
         <div class="container">
             <h2>Лучшие моменты <br>представления</h2>
-            <x-locations></x-locations>
+            <x-moments></x-moments>
         </div>
     </section>
 
@@ -123,13 +123,20 @@
             <x-program></x-program>
         </div>
     </section>
-{{--
+
     <section id="location" class="location_section">
         <div class="container">
-            <h2>ТОП локации<br>Москвы</h2>
+            <h2>Лучшие локации <br>Москвы</h2>
             <x-locations></x-locations>
         </div>
-    </section> --}}
+    </section>
+
+    <section id="philosophy" class="program_section central_section">
+        <div class="container">
+            <x-philosophy></x-philosophy>
+        </div>
+    </section>
+
 
     <section class="in_tur">
         <div class="container text_styles">

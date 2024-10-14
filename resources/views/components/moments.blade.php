@@ -2,9 +2,8 @@
     @foreach ($all_location as $key => $value)
     <div class="location">
         <div class="img">
-            <img src="{{ asset('img/locations/'.$value) }}" alt="{{ $key }}">
+            <img src="{{ asset('img/moments/'.$value) }}" alt="{{ $key }}">
         </div>
-        <h3>{{ $key }}</h3>
     </div>
     @endforeach
 
