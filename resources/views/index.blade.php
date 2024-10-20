@@ -138,7 +138,7 @@
     </section>
 
 
-    <section class="in_tur">
+    <section id="in_tur" class="in_tur">
         <div class="container text_styles">
             <div class="wrapper">
                 <h2>Стоимость тура:</h2>
