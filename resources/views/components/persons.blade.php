@@ -12,6 +12,6 @@
         <a href="#showModal" class="ava btn"></a>
     </div>
     <div class="text">
-        <p>Уже более <strong>2740 школьников</strong><br>путешествуют вместе с <strong>МирТуризма</strong></p>
+        <p>Уже более <strong>1280 детей</strong><br>посетили Кремлевскую Ёлку вместе с <strong>МирТуризма</strong></p>
     </div>
 </div>
