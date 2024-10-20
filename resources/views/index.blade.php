@@ -142,13 +142,13 @@
         <div class="container text_styles">
             <div class="wrapper">
                 <h2>Стоимость билетов</h2>
-                <strong>Билеты на балкон:</strong>
+                {{-- <strong>Билеты на балкон:</strong>
                 <ul>
                     <li>9500 ₽ дети </li>
                     <li>11000 ₽ взрослые</li>
-                </ul>
+                </ul> --}}
 
-                <strong>Билеты амфитеатр:</strong>
+                <strong>Билеты на кремлевскую елку:</strong>
                 <ul>
                     <li>10500 ₽ дети</li>
                     <li>12000 ₽ взрослые</li>
