@@ -50,22 +50,6 @@
             </div>
     </section>
 
-    {{-- <x-header></x-header>
-
-    <section class="banner">
-        <div class="bnr_img">
-            <div class="line"></div>
-        </div>
-        <div class="container">
-            <div class="bnr_text">
-                <h1>Новогодний тур на <br>«Кремлёвскую Ёлку» <br> в Москву</h1>
-                <p class="subtext">Приглашаем Вас в Новогодний тур в Москву! Вы посетите незабываемое мероприятие «Кремлёвскую Ёлку🎄» – самое главное Новогоднее представление в России и заветная мечта для миллионов мальчишек и девчонок!</p>
-                <x-cerecter></x-cerecter>
-                <a class="button" href="#showModal">Узнать подробности</a>
-            </div>
-        </div>
-    </section> --}}
-
     <section id="about" class="about_section">
         <div class="container">
             <div class="about">
@@ -140,20 +124,12 @@
 
     <section id="in_tur" class="in_tur">
         <div class="container text_styles">
-            <div class="wrapper">
-                <h2>Стоимость тура:</h2>
+            <div class="wrapper" id="price_app">
+                <h2>Купить тур:</h2>
 
-                {{-- <strong>На комфортабельном автобусе:</strong> --}}
-                <ul>
-                    <li>9000 ₽ дети </li>
-                    <li>8500 ₽ взрослые</li>
-                </ul>
-
-                {{-- <strong>На поезде:</strong>
-                <ul>
-                    <li>10500 ₽ дети</li>
-                    <li>11500 ₽ взрослые</li>
-                </ul> --}}
+                <div class="pay_wrapper">
+                    <tour-price title="Кремлевская ёлка 2025" img="{{config('app.url').asset('img/bn_present/4.jpg')}}"  :prices="{{json_encode([["price" => 9000, "comment" => "Цена для детей"],["price" => 8500, "comment" => "Цена для взрослых"]])}}"></tour-price>
+                </div>
 
                 <h2>В цену тура входит:</h2>
                 <ul>

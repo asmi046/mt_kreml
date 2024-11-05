@@ -7,6 +7,8 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import { VMaskDirective } from 'v-slim-mask'
 
+import TourPrice from "./components/TourPrice.vue"
+
 const global_app = createApp({
     components:{
         ModalWindow,
@@ -17,6 +19,17 @@ const global_app = createApp({
 global_app.use(VueAxios, axios)
 global_app.directive('mask', VMaskDirective)
 global_app.mount("#global_app");
+
+const price_app = createApp({
+    components:{
+        TourPrice,
+    },
+    setup() {}
+})
+
+price_app.use(VueAxios, axios)
+price_app.directive('mask', VMaskDirective)
+price_app.mount("#price_app");
 
 
 import SideMenu from './menues.js';
