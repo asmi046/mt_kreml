@@ -128,7 +128,7 @@
                 <h2>Купить тур:</h2>
 
                 <div class="pay_wrapper">
-                    <tour-price title="Кремлевская ёлка 2025" img="{{config('app.url').asset('img/bn_present/4.jpg')}}"  :prices="{{json_encode([["price" => 9000, "comment" => "Цена для детей"],["price" => 8500, "comment" => "Цена для взрослых"]])}}"></tour-price>
+                    <tour-price title="Кремлевская ёлка 2025" img="{{asset('img/bn_present/4.jpg')}}"  :prices="{{json_encode([["price" => 9000, "comment" => "Цена для детей"],["price" => 8500, "comment" => "Цена для взрослых"]])}}"></tour-price>
                 </div>
 
                 <h2>В цену тура входит:</h2>
