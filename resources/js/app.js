@@ -147,7 +147,7 @@ gsap.from(items, {
     stagger: 1,
 });
 
-const anchors = document.querySelectorAll('.menue_puncts_list a[href*="#"]')
+const anchors = document.querySelectorAll('a[href*="#"].yakor')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
