@@ -116,6 +116,21 @@ h1 {
     }
 }
 
+.rub_icon {
+    display: block;
+    width:20px;
+    height:20px;
+    background-image: url('../img/ruble.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn_wrapper {
+    display: flex;
+    gap: 10px;
+}
+
 @media (max-width:1280px) {
     .container{
         width:96%;
@@ -153,6 +168,16 @@ h1 {
 
         .wrapper  {
             width: 100%;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .btn_wrapper {
+        flex-direction: column;
+
+        .button {
+            margin-right: auto
         }
     }
 }

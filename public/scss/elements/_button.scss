@@ -19,6 +19,16 @@ button,
     }
 }
 
+
+
+.button_icon {
+    display: inline-flex;
+
+    & > * {
+        margin:auto 5px;
+    }
+}
+
 .button-white {
     background-color: white;
     color: $main_color;
