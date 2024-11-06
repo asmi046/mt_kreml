@@ -1,7 +1,7 @@
 .banner_video {
     padding: 0;
     position: relative;
-    width: 100wh;
+    width: 100vw;
     height: 100vh;
 
     ._video {
@@ -74,7 +74,11 @@
 
 @media (max-width:480px) {
     .banner_video {
+        min-height: 100vh;
+        height: auto;
         .left_text {
+            height: auto;
+            padding-bottom: 20px;
             .dop_img  .img_wrap {
                 height: 100px;
             }
