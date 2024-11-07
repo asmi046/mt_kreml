@@ -37,7 +37,7 @@ import { ref } from 'vue';
         const message = "&message="
         const picture = "&pic="
 
-        let resultPayURL = payPage+tourType+pid+price+props.prices[selected.value].price+message+props.title+picture+props.img
+        let resultPayURL = payPage+tourType+pid+price+props.prices[selected.value].price+message+props.title+" "+props.prices[selected.value].comment+picture+props.img
 
         document.location.href = resultPayURL
     }
