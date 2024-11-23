@@ -27,7 +27,7 @@
                     <br>
                     <div class="btn_wrapper">
                         <a class="button" href="#showModal">Узнать подробности</a>
-                        <a class="button button_icon yakor" href="#in_tur"><i class="rub_icon"></i><span>Купить тур</span></a>
+                        <a class="button button_icon yakor" onclick="ym(99022196,'reachGoal','to_pay')" href="#in_tur"><i class="rub_icon"></i><span>Купить тур</span></a>
                     </div>
                 </div>
                 <div class="dop_img">

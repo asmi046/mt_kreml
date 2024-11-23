@@ -67,9 +67,10 @@ export default {
 
             })
             .then((response) => {
+
                 this.showLoader = false
-                console.log(response)
                 this.showAccept = true;
+                ym(99022196,'reachGoal','send')
             })
             .catch( (error) => {
                 this.showLoader = false
