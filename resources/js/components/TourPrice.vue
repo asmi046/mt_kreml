@@ -6,7 +6,7 @@
                 <div class="radio"></div>
                 <div class="info">
                     <div class="price"><strong>{{ item.price }}</strong> ₽</div>
-                    <p>{{ item.comment }}</p>
+                    <p v-html="item.comment"></p>
                 </div>
             </div>
         </div>
