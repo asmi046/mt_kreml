@@ -131,7 +131,6 @@
             <div class="wrapper" id="price_app">
                 <h2>Даты мероприятия:</h2>
                 <ul>
-                    <li>29.12.2024</li>
                     <li>05.01.2025</li>
                 </ul>
 
