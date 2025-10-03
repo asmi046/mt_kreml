@@ -10,7 +10,7 @@
                 </div>
             </div>
         </div>
-        <button @click.prevent="goToPay" class="button">Купить путевку</button>
+        <button @click.prevent="goToPayNew" class="button">Купить путевку</button>
     </div>
 </template>
 
@@ -41,6 +41,28 @@ import { ref } from 'vue';
         let resultPayURL = payPage+tourType+pid+price+props.prices[selected.value].price+message+props.title+" "+props.prices[selected.value].comment+picture+props.img
 
         document.location.href = resultPayURL
+    }
+
+
+    const goToPayNew = async () => {
+        axios.get('https://tours.mirturizma46.ru/pay/create_pay_order', {
+            params: {
+            img: props.img,
+            client_count: 1,
+            start_data: props.prices[selected.value].start_data, // если есть
+            price: props.prices[selected.value].price,
+            name: props.title + " " + (props.prices[selected.value].comment ?? ""),
+            back_link: document.location.origin + document.location.pathname,
+            type: 'ekskursionka' // замените на нужный тип
+            }
+        })
+        .then(response => {
+            ym(100353854,'reachGoal','to_pay_page')
+            document.location.href = response.data.pay_url;
+        })
+        .catch(error => {
+            console.error(error);
+        });
     }
 
 </script>
