@@ -154,7 +154,7 @@
 
                 <h2>Купить тур:</h2>
                 <div class="pay_wrapper">
-                    <tour-price title="Кремлевская ёлка 2025" img="{{ asset('img/bn_present/4.jpg') }}"
+                    <tour-price title="Кремлевская ёлка 2027 (+ДМ)" img="{{ asset('img/bn_present/4.jpg') }}"
                         :prices="{{ json_encode([
                             // ["price" => 8500, "comment" => "Цена для взрослых (Кремлевская Ёлка 29.12.2024)"],
                             // ["price" => 9000, "comment" => "Цена для детей + подарок (Кремлевская Ёлка 29.12.2024)"],
