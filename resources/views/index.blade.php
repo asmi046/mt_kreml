@@ -1,8 +1,8 @@
 @extends('layouts.all')
 
 @php
-    $title = "Кремлёвская Ёлка автобусный тур из Курска - МирТуризма 46";
-    $description = "Кремлёвская Ёлка автобусный тур из Курска - МирТуризма 46";
+    $title = 'Кремлёвская Ёлка автобусный тур из Курска - МирТуризма 46';
+    $description = 'Кремлёвская Ёлка автобусный тур из Курска - МирТуризма 46';
 @endphp
 
 @section('title', $title)
@@ -18,40 +18,43 @@
         <x-header></x-header>
 
 
-            <div class="container left_text">
-                <div class="bnr_text">
-                    <h1>Новогодний тур на <br>«Кремлёвскую Ёлку» <br> в Москву</h1>
-                    <p class="subtext">Приглашаем Вас в Новогодний тур в Москву! Вы посетите незабываемое мероприятие «Кремлёвскую Ёлку🎄» – самое главное Новогоднее представление в России и заветная мечта для миллионов мальчишек и девчонок!</p>
-                    <h2>Даты мероприятия: <br><strong>27.12.2025, 03.01.2026</strong></h2>
-                    <br>
-                    <br>
-                    <div class="btn_wrapper">
-                        <a class="button" href="#showModal">Узнать подробности</a>
-                        <a class="button button_icon yakor" onclick="ym(99022196,'reachGoal','to_pay')" href="#in_tur"><i class="rub_icon"></i><span>Купить тур</span></a>
-                    </div>
-                </div>
-                <div class="dop_img">
-                    <div class="img_wrap img_1">
-                        <img src="{{ asset('img/bn_present/4.jpg') }}" alt="">
-                    </div>
-                    <div class="img_wrap img_2">
-                        <img src="{{ asset('img/bn_present/2.jpg') }}" alt="">
-                    </div>
-                    <div class="img_wrap img_3">
-                        <img src="{{ asset('img/bn_present/3.jpg') }}" alt="">
-                    </div>
-                    <div class="img_wrap img_4">
-                        <img src="{{ asset('img/bn_present/1.jpg') }}" alt="">
-                    </div>
-
-                    <div class="img_wrap img_5">
-                        <img src="{{ asset('img/bn_present/5.webp') }}" alt="">
-                    </div>
-                    <div class="img_wrap img_6">
-                        <img src="{{ asset('img/bn_present/6.jpg') }}" alt="">
-                    </div>
+        <div class="container left_text">
+            <div class="bnr_text">
+                <h1>Новогодний тур на <br>«Кремлёвскую Ёлку» <br> в Москву</h1>
+                <p class="subtext">Приглашаем Вас в Новогодний тур в Москву! Вы посетите незабываемое мероприятие
+                    «Кремлёвскую Ёлку🎄» – самое главное Новогоднее представление в России и заветная мечта для миллионов
+                    мальчишек и девчонок!</p>
+                <h2>Даты мероприятия: <br><strong>26.12.2026, 03.01.2027, 05.01.2027</strong></h2>
+                <br>
+                <br>
+                <div class="btn_wrapper">
+                    <a class="button" href="#showModal">Узнать подробности</a>
+                    <a class="button button_icon yakor" onclick="ym(99022196,'reachGoal','to_pay')" href="#in_tur"><i
+                            class="rub_icon"></i><span>Купить тур</span></a>
                 </div>
             </div>
+            <div class="dop_img">
+                <div class="img_wrap img_1">
+                    <img src="{{ asset('img/bn_present/4.jpg') }}" alt="">
+                </div>
+                <div class="img_wrap img_2">
+                    <img src="{{ asset('img/bn_present/2.jpg') }}" alt="">
+                </div>
+                <div class="img_wrap img_3">
+                    <img src="{{ asset('img/bn_present/3.jpg') }}" alt="">
+                </div>
+                <div class="img_wrap img_4">
+                    <img src="{{ asset('img/bn_present/1.jpg') }}" alt="">
+                </div>
+
+                <div class="img_wrap img_5">
+                    <img src="{{ asset('img/bn_present/5.webp') }}" alt="">
+                </div>
+                <div class="img_wrap img_6">
+                    <img src="{{ asset('img/bn_present/6.jpg') }}" alt="">
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="about" class="about_section">
@@ -87,7 +90,10 @@
                 <div class="text">
                     <div class="inner">
                         <h2>Дорогие друзья! <br>Приглашаем Вас в Новогодний тур в Москву! </h2>
-                        <p>Вы посетите незабываемое мероприятие <strong>«Кремлёвскую Ёлку🎄»</strong> – самое главное Новогоднее представление в России и заветная мечта для миллионов мальчишек и девчонок! Побывать здесь – означает убедиться в том, что Дед Мороз существует, что он настоящий и что сказка это не вымысел, а реальность!
+                        <p>Вы посетите незабываемое мероприятие <strong>«Кремлёвскую Ёлку🎄»</strong> – самое главное
+                            Новогоднее представление в России и заветная мечта для миллионов мальчишек и девчонок! Побывать
+                            здесь – означает убедиться в том, что Дед Мороз существует, что он настоящий и что сказка это не
+                            вымысел, а реальность!
 
                         </p>
                         <x-persons></x-persons>
@@ -131,8 +137,9 @@
             <div class="wrapper" id="price_app">
                 <h2>Даты мероприятия:</h2>
                 <ul>
-                    <li>27.12.2025,</li>
-                    <li>03.01.2026</li>
+                    <li>26.12.2026, </li>
+                    <li>03.01.2027, </li>
+                    <li>05.01.2027</li>
                 </ul>
 
 
@@ -140,25 +147,29 @@
                 <ul>
                     <li>Билеты на <strong>Кремлёвскую Ёлку 🎄</strong></li>
                     <li>Cладкий подарок детям 🎁</li>
-                    <li>Проезд <strong>на комфортабельном автобусе 🚌</strong>  </li>
+                    <li>Проезд <strong>на комфортабельном автобусе 🚌</strong> </li>
                     <li>Транспортное обслуживание (автобус) <strong>по Москве</strong></li>
                     <li>Новогодняя <strong>экскурсия</strong> по столице с гидом 🎤</li>
                 </ul>
 
                 <h2>Купить тур:</h2>
                 <div class="pay_wrapper">
-                    <tour-price title="Кремлевская ёлка 2025" img="{{asset('img/bn_present/4.jpg')}}"  :prices="{{json_encode([
-                        // ["price" => 8500, "comment" => "Цена для взрослых (Кремлевская Ёлка 29.12.2024)"],
-                        // ["price" => 9000, "comment" => "Цена для детей + подарок (Кремлевская Ёлка 29.12.2024)"],
-
-                        ["price" => 13000, "comment" => "Цена для взрослых - без подарка(Кремлевская Ёлка 27.12.2025)"],
-                        ["price" => 14000, "comment" => "Цена для детей + подарок (Кремлевская Ёлка 27.12.2025)"],
-
-                        ["price" => 13000, "comment" => "Цена для взрослых - без подарка (Кремлевская Ёлка 03.01.2026)"],
-                        ["price" => 14000, "comment" => "Цена для детей + подарок (Кремлевская Ёлка 03.01.2026)"],
-                        // ["price" => 1, "comment" => "Цена тестовая (не оплачивать)"],
-
-                        ])}}"></tour-price>
+                    <tour-price title="Кремлевская ёлка 2025" img="{{ asset('img/bn_present/4.jpg') }}"
+                        :prices="{{ json_encode([
+                            // ["price" => 8500, "comment" => "Цена для взрослых (Кремлевская Ёлка 29.12.2024)"],
+                            // ["price" => 9000, "comment" => "Цена для детей + подарок (Кремлевская Ёлка 29.12.2024)"],
+                        
+                            ['price' => 14500, 'comment' => 'Цена для взрослых - без подарка(Кремлевская Ёлка 26.12.2026)'],
+                            ['price' => 15500, 'comment' => 'Цена для детей + подарок (Кремлевская Ёлка 26.12.2026)'],
+                        
+                            ['price' => 14500, 'comment' => 'Цена для взрослых - без подарка (Кремлевская Ёлка 03.01.2027)'],
+                            ['price' => 15500, 'comment' => 'Цена для детей + подарок (Кремлевская Ёлка 03.01.2027)'],
+                        
+                            ['price' => 14500, 'comment' => 'Цена для взрослых - без подарка (Кремлевская Ёлка 05.01.2027)'],
+                            ['price' => 15500, 'comment' => 'Цена для детей + подарок (Кремлевская Ёлка 05.01.2027)'],
+                        
+                            // ["price" => 1, "comment" => "Цена тестовая (не оплачивать)"],
+                        ]) }}"></tour-price>
                 </div>
 
             </div>
@@ -172,8 +183,10 @@
                 <x-map.map-in-page></x-map.map-in-page>
                 <div class="text">
                     <h2>Свяжитесь с нами любым удобным способом:</h2>
-                    <a class="phone" href="tel:+7{{ phone_format(config('contacts.phone')) }}">{{ config('contacts.phone') }}</a>
-                    <a class="email" href="mailto:{{ phone_format(config('contacts.email')) }}">{{ config('contacts.email') }}</a>
+                    <a class="phone"
+                        href="tel:+7{{ phone_format(config('contacts.phone')) }}">{{ config('contacts.phone') }}</a>
+                    <a class="email"
+                        href="mailto:{{ phone_format(config('contacts.email')) }}">{{ config('contacts.email') }}</a>
                     <p>{{ config('contacts.adress') }}</p>
 
                     <x-social-net></x-social-net>
@@ -183,4 +196,3 @@
     </section>
 
 @endsection
-
